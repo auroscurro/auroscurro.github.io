@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auroscurro Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Italianno&family=Niramit:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="main-banner">
+    <div class="banner-buttons-left">
+      <a href="assets/CVauroscurro.pdf" download="CVauroscurro.pdf" class="btn font-inter">DOWNLOAD CV</a>
+      <a href="#contacts" class="btn font-inter">HIRE ME</a>
+    </div>
+
+    <div class="banner-right-group">
+      <div class="logo-container">
+        <img src="assets/logo.png" alt="Auroscurro Logo" class="logo-img">
+      </div>
+      <p class="subtitle font-niramit">DIGITAL X TRADITIONAL ARTIST</p>
+    </div>
+  </header>
+
+  <main class="content-container">
+
+    <section class="section-row flex-between overlap-banner">
+      <div class="card-box card-skills">
+        <h2 class="skills-title font-italianno">Skills</h2>
+        
+        <div class="skills-layout">
+          <div class="skills-logos-grid">
+            <div class="software-item">
+              <div class="software-box">
+                <img src="assets/krita.png" alt="Krita">
+              </div>
+              <span class="software-label font-niramit">Krita</span>
+            </div>
+            <div class="software-item">
+              <div class="software-box">
+                <img src="assets/synfig.png" alt="Synfig">
+              </div>
+              <span class="software-label font-niramit">Synfig</span>
+            </div>
+            <div class="software-item">
+              <div class="software-box">
+                <img src="assets/blender.png" alt="Blender">
+              </div>
+              <span class="software-label font-niramit">Blender</span>
+            </div>
+            <div class="software-item">
+              <div class="software-box">
+                <img src="assets/ps.png" alt="Photoshop">
+              </div>
+              <span class="software-label font-niramit">Photoshop</span>
+            </div>
+          </div>
+
+          <div class="card-text font-niramit skills-list font-niramit">
+            <ul>
+              <li>Acrylic painting</li>
+              <li>Digital art</li>
+              <li>Mixed media art</li>
+              <li>3D modeling</li>
+              <li>Sculpture</li>
+              <li>Animation</li>
+              <li>Character design</li>
+              <li>Environment design</li>
+              <li>Comics and storytelling</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-box card-who-am-i">
+        <h2 class="card-title font-inter">WHO AM I?</h2>
+        <div class="card-text font-niramit">
+          <p>I'm an artist who combines skills for digital and traditional art, comic creation, animation, and creating 3D models. It's fun to mix my skills to create solid visual stories.</p>
+          <p>My work is driven by curiosity and the desire to tell stories that resonate. <span class="highlight-yellow">I am currently available for freelance commissions and collaboration!</span> Whether you need concept art, comic pages, 3D assets, or animated sequences, I offer a full pipeline from sketch to final render.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block">
+      <h2 class="section-header-title font-inter">DISCOVER MY PROJECTS</h2>
+      
+      <div class="carousel-wrapper">
+        <button class="carousel-arrow prev" id="prevBtn" aria-label="Previous"></button>
+
+        <div class="projects-carousel-container" id="carouselContainer">
+          <div class="carousel-track">
+            
+            <div class="project-card project-card-1">
+              <div class="project-inner-img project-img-1">
+                <div class="project-title-layout">
+                  <span class="title-jack font-inter">Jack and the Beanstalk</span>
+                  <span class="title-design font-italianno">Design</span>
+                </div>
+              </div>
+              <div class="project-card-overlay">
+                <p class="font-niramit">Inspired by japanese 1974s Jack and The Beanstalk, I decided to create my own animated version of it. I started with character designs - 2D and 3D.</p>
+                <a href="jatb.html" class="btn-more font-inter">learn more</a>
+              </div>
+            </div>
+
+            <div class="project-card project-card-2">
+              <div class="project-inner-img project-img-2">
+                <h3 class="title-kaufland font-inter">KAUFLAND mural</h3>
+              </div>
+              <div class="project-card-overlay overlay-kaufland">
+                <p class="font-niramit">Painted a mural on a huge wall in Kaufland on Kiev 7 street in Moldova. It was a part of their company “Change through art”.</p>
+                <a href="kaufland.html" class="btn-more font-inter">learn more</a>
+              </div>
+            </div>
+
+            <div class="project-card project-card-3">
+              <div class="project-inner-img project-img-3">
+                <h3 class="title-archer font-italianno">The Archer</h3>
+              </div>
+              <div class="project-card-overlay overlay-archer">
+                <p class="font-niramit">“The Archer" focuses on good character design, composition, and idea. It was created with the idea of criticizing the military.</p>
+                <a href="thearcher.html" class="btn-more font-inter">learn more</a>
+              </div>
+            </div>
+
+            <div class="project-card project-card-4">
+              <div class="project-inner-img project-img-4"></div>
+              <h3 class="title-acrylic font-italianno">Acrylic</h3>
+              <div class="project-card-overlay overlay-acrylic">
+                <p class="font-niramit desc-acrylic">Discover my acrylic paintings and current traditional projects.</p>
+                <a href="acrylic.html" class="btn-more font-inter">learn more</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <button class="carousel-arrow next" id="nextBtn" aria-label="Next"></button>
+      </div>
+    </section>
+
+    <section class="section-block">
+      <h2 class="section-header-title font-inter">TESTIMONIAL AND REVIEWS</h2>
+      <div class="card-box card-testimonials">
+        <div class="testimonial-column">
+          <h3 class="font-italianno">Plai gallery</h3>
+          <div class="testimonial-text-box testimonial-text-left">
+            <p class="font-niramit">We invited Christina (Auroscurro) to lead a sumi-e workshop, 28 may 2026. An incredible creative mind. Collaborating on gallery installations brought an entirely fresh dimension to our space.</p>
+            <p class="font-niramit testimonial-author">— Plai Gallery Curatorial Team.</p>
+          </div>
+        </div>
+        <div class="testimonial-column">
+          <h3 class="font-italianno">Fellow Artist</h3>
+          <div class="testimonial-text-box testimonial-text-right">
+            <p class="font-niramit">She’s definetely not a casual artist. I met Christina in college, and what I admire most is how she’s driven by her projects. Repeatedly, I woke up in the morning to her sketches and messages about her progress and ideas. She’s definetely the best choice if you’re looking for someone commited and persistent.</p>
+            <p class="font-niramit testimonial-author">— asked to remain anonymous</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block" id="contacts">
+      <h2 class="section-header-title font-inter">CONTACTS</h2>
+      <div class="card-box card-contacts font-niramit">
+        <p>Email: auroscurro@gmail.com</p>
+        <p>Instagram: @auroscurro</p>
+        <p>TikTok: @auroscurro</p>
+        <p>ArtStation: @auroscurro</p>
+        <p class="contact-note">For commissions, collaborations, or just to say hello, I usually respond within 24 hours.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer-container">
+    <div class="footer-content">
+      <section class="quote-section">
+        <blockquote class="quote-text font-niramit">
+          "What if you stopped fearing your intensity and followed it instead?"
+        </blockquote>
+      </section>
+      <p class="font-niramit testimonial-author">- Fichnramous</p>
+      <p class="copyright font-niramit">© 2026 Auroscurro. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const container = document.getElementById('carouselContainer');
+    document.getElementById('prevBtn').addEventListener('click', () => {
+      container.scrollBy({ left: -402, behavior: 'smooth' });
+    });
+    document.getElementById('nextBtn').addEventListener('click', () => {
+      container.scrollBy({ left: 402, behavior: 'smooth' });
+    });
+  </script>
+
+</body>
+</html>
